@@ -1,0 +1,22 @@
+﻿  CSQLInterface.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\sql\CSQLInterface.h(58): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(53): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(67): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(91): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(106): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(136): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(148): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(180): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(188): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(195): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(197): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(205): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(207): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(215): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(267): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(276): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(278): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(306): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(316): warning C4018: '<': signed/unsigned mismatch
+source\language_interface\sql\CSQLInterface.cpp(323): warning C4018: '<': signed/unsigned mismatch
+  CPPToolkit.vcxproj -> C:\Users\Mick\Documents\Programming Projects\CPPToolkit\Release\CPPToolkit.lib

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\winapi">
+      <UniqueIdentifier>{4d78f101-70e5-42f2-995b-e9926548b020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tools">
+      <UniqueIdentifier>{936f945d-9c49-4ca6-bbac-ba2fe3d57ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\language interface">
+      <UniqueIdentifier>{ab7157a6-e4f3-4c45-b648-30cf967c1dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\io">
+      <UniqueIdentifier>{96ebfc97-48c1-4cbd-9d09-283de4015d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\winapi">
+      <UniqueIdentifier>{6a481b2c-d722-499c-848f-a69cb53703a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tools">
+      <UniqueIdentifier>{dcd05f5a-79b4-4405-8044-3c99e2595e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\language interface">
+      <UniqueIdentifier>{d79eaa63-844b-49ef-9b11-2499250b88ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{a12d87c3-9901-495d-b465-fdf38adfcdf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\io\peripherals">
+      <UniqueIdentifier>{cda7107c-cc2b-467c-8f64-9b0d000e7b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io\peripherals">
+      <UniqueIdentifier>{3e347a57-21df-4f56-9cf1-e53c1b0c7e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\language interface\sql">
+      <UniqueIdentifier>{8ada8ea3-1c97-47f1-943c-f27227e8f0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\language interface\sql">
+      <UniqueIdentifier>{58ac9ead-bf58-4b6d-ad9d-37601d505e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\language interface\python">
+      <UniqueIdentifier>{fa884e3e-2220-4b4e-9f42-7fa3d37cec9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\language interface\python">
+      <UniqueIdentifier>{3c19b42e-5002-4d48-988a-ee29892e76de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{143ceb0f-db71-4dd2-8565-068a702ba06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math\geometry">
+      <UniqueIdentifier>{499d99be-d156-40dc-a4f9-e628724a8d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{f1a3cb86-044d-4146-b02a-a7ba637d799d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math\geometry">
+      <UniqueIdentifier>{34203e6f-4373-4ef3-8507-87f451bf9cec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\io\CInput.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io\CCMDLnInterface.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io\CIO.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io\COutput.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io\peripherals\CKeyboardInput.cpp">
+      <Filter>Source Files\io\peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io\peripherals\CMouseInput.cpp">
+      <Filter>Source Files\io\peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="source\io\peripherals\CTouchInput.cpp">
+      <Filter>Source Files\io\peripherals</Filter>
+    </ClCompile>
+    <ClCompile Include="source\language_interface\sql\CSQLInterface.cpp">
+      <Filter>Source Files\language interface\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="source\language_interface\sql\sqlite3.c">
+      <Filter>Source Files\language interface\sql</Filter>
+    </ClCompile>
+    <ClCompile Include="source\language_interface\python\CPyFile.cpp">
+      <Filter>Source Files\language interface\python</Filter>
+    </ClCompile>
+    <ClCompile Include="source\language_interface\python\CPyManager.cpp">
+      <Filter>Source Files\language interface\python</Filter>
+    </ClCompile>
+    <ClCompile Include="source\winapi\CWindow.cpp">
+      <Filter>Source Files\winapi</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tools\CTimer.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tools\CLog.cpp">
+      <Filter>Source Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math\geometry\MathTransform.cpp">
+      <Filter>Source Files\math\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math\geometry\CVector4.cpp">
+      <Filter>Source Files\math\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math\geometry\CVector3.cpp">
+      <Filter>Source Files\math\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math\geometry\CVector2.cpp">
+      <Filter>Source Files\math\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math\geometry\CLine.cpp">
+      <Filter>Source Files\math\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\language_interface\python\PyTypes.cpp">
+      <Filter>Source Files\language interface\python</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\io\CCMDLnInterface.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="source\io\CInput.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="source\io\CIO.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="source\io\COutput.h">
+      <Filter>Header Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="source\io\peripherals\CKeyboardInput.h">
+      <Filter>Header Files\io\peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="source\io\peripherals\CMouseInput.h">
+      <Filter>Header Files\io\peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="source\io\peripherals\CTouchInput.h">
+      <Filter>Header Files\io\peripherals</Filter>
+    </ClInclude>
+    <ClInclude Include="source\language_interface\sql\sqlite3.h">
+      <Filter>Header Files\language interface\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="source\language_interface\sql\CSQLInterface.h">
+      <Filter>Header Files\language interface\sql</Filter>
+    </ClInclude>
+    <ClInclude Include="source\language_interface\python\CPyFile.h">
+      <Filter>Header Files\language interface\python</Filter>
+    </ClInclude>
+    <ClInclude Include="source\language_interface\python\CPyManager.h">
+      <Filter>Header Files\language interface\python</Filter>
+    </ClInclude>
+    <ClInclude Include="source\tools\CLog.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="source\tools\CTimer.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="source\winapi\CWindow.h">
+      <Filter>Header Files\winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math\geometry\CLine.h">
+      <Filter>Header Files\math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math\geometry\CVector2.h">
+      <Filter>Header Files\math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math\geometry\CVector3.h">
+      <Filter>Header Files\math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math\geometry\CVector4.h">
+      <Filter>Header Files\math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math\geometry\MathTransform.h">
+      <Filter>Header Files\math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math\geometry\Vectors.h">
+      <Filter>Header Files\math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="source\language_interface\python\PyTypes.h">
+      <Filter>Header Files\language interface\python</Filter>
+    </ClInclude>
+    <ClInclude Include="source\language_interface\python\CPyObject.h">
+      <Filter>Header Files\language interface\python</Filter>
+    </ClInclude>
+    <ClInclude Include="source\language_interface\python\CPyInstance.h">
+      <Filter>Header Files\language interface\python</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
