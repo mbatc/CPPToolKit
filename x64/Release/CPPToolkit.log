@@ -1,0 +1,34 @@
+﻿  CCMDLnInterface.cpp
+  CInput.cpp
+  CIO.cpp
+source\io\CIO.cpp(41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  COutput.cpp
+  CKeyboardInput.cpp
+  CMouseInput.cpp
+  CTouchInput.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\io\peripherals\CTouchInput.h(55): warning C4800: 'const STOUCHINFO *': forcing value to bool 'true' or 'false' (performance warning)
+source\io\peripherals\CTouchInput.cpp(34): warning C4018: '<': signed/unsigned mismatch
+source\io\peripherals\CTouchInput.cpp(52): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+source\io\peripherals\CTouchInput.cpp(53): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+  CPyFile.cpp
+  CPyManager.cpp
+source\language_interface\python\CPyManager.cpp(133): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  PyTypes.cpp
+  CSQLInterface.cpp
+source\language_interface\sql\CSQLInterface.cpp(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  CLine.cpp
+  CVector2.cpp
+  CVector3.cpp
+  CVector4.cpp
+  MathTransform.cpp
+source\math\geometry\MathTransform.cpp(7): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+source\math\geometry\MathTransform.cpp(8): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+source\math\geometry\MathTransform.cpp(9): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+source\math\geometry\MathTransform.cpp(10): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+  CLog.cpp
+source\tools\CLog.cpp(37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+source\tools\CLog.cpp(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CTimer.cpp
+  CWindow.cpp
+  sqlite3.c
+  CPPToolkit.vcxproj -> C:\Users\Mick\Documents\Programming Projects\CPPToolkit\x64\Release\CPPToolkit.lib

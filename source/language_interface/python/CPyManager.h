@@ -16,7 +16,7 @@ public:
 	int 		numScripts();
 	std::string 	getName(int i);
 
-	CPyObject callModuleFunc(std::string file, std::string func, ...);
+	CPyObject callModuleFunc(std::string file, std::string func, std::vector<PY_ARG> args);
 
 	bool AddScript(std::string file);
 	bool RunScript(std::string file);

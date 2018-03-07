@@ -25,12 +25,12 @@ int CPyManager::PYInit()
 
 	if (!m_program.size())
 	{
-		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "[PYTHON]CPyManager: Cannot decode program name (%s)"
+		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "[PYTHON] CPyManager: Cannot decode program name (%s)"
 			, m_program_str.c_str());
 		return 1;
 	}
 
-	_LOG.Log(this, DEBUGLOG_LEVEL_INFO, "[PYTHON]Decoded Program name: %s", m_program.c_str());
+	_LOG.Log(this, DEBUGLOG_LEVEL_INFO, "[PYTHON] Decoded Program name: %s", m_program.c_str());
 
 	Py_SetProgramName(&m_program[0]);
 	return 0;
@@ -38,6 +38,7 @@ int CPyManager::PYInit()
 
 int CPyManager::PYFinalize()
 {
+	return 0;
 }
 
 bool CPyManager::AddScript(std::string file)
@@ -46,7 +47,7 @@ bool CPyManager::AddScript(std::string file)
 	CPyInstance _pyInst;
 	if (!Py_IsInitialized())
 	{
-		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "Cannot add python script(%s): CPyManager not initialized",
+		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "[PYTHON] Cannot add script(%s): CPyManager not initialized",
 			file.c_str());
 		return false;
 	}
@@ -55,7 +56,7 @@ bool CPyManager::AddScript(std::string file)
 	{
 		if (!strcmp(m_pyFile[i].getName().c_str(), file.c_str()))
 		{
-			_LOG.Log(this, DEBUGLOG_LEVEL_INFO, "Python script already loaded (%s)",
+			_LOG.Log(this, DEBUGLOG_LEVEL_INFO, "[PYTHON] Script already loaded (%s)",
 				file.c_str());
 			return true;
 		}
@@ -72,7 +73,7 @@ bool CPyManager::RunScript(std::string file)
 
 	if (!Py_IsInitialized())
 	{
-		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "Cannot run python script(%s): CPyManager not initialized",
+		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "[PYTHON] Cannot run script(%s): CPyManager not initialized",
 			file.c_str());
 		return false;
 	}
@@ -81,14 +82,14 @@ bool CPyManager::RunScript(std::string file)
 	{
 		if (!strcmp(m_pyFile[i].getName().c_str(), file.c_str()))
 		{
-			_LOG.Log(this, DEBUGLOG_LEVEL_INFO, "Running python script: %s",
+			_LOG.Log(this, DEBUGLOG_LEVEL_INFO, "[PYTHON] Running script: %s",
 				file.c_str());
 			if (!m_pyFile[i].Run())
 				return false;
 			return true;
 		}
 	}
-	_LOG.Log(this, DEBUGLOG_LEVEL_WARNING, "Failed to run Python script (%s): has not been added",
+	_LOG.Log(this, DEBUGLOG_LEVEL_WARNING, "[PYTHON] Failed to run script (%s): has not been added",
 		file.c_str());
 	return false;
 }
@@ -99,7 +100,7 @@ bool CPyManager::RemScript(std::string file)
 	CPyInstance _pyInst;
 	if (!Py_IsInitialized())
 	{
-		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "Cannot remove python script(%s): CPyManager not initialized",
+		_LOG.Log(this, DEBUGLOG_LEVEL_ERROR, "[PYTHON] Cannot remove script(%s): CPyManager not initialized",
 			file.c_str());
 		return false;
 	}
@@ -139,7 +140,7 @@ std::string CPyManager::getName(int i)
 	return m_pyFile[i].getName();
 }
 
-CPyObject CPyManager::callModuleFunc(std::string file, std::string func, ...)
+CPyObject CPyManager::callModuleFunc(std::string file, std::string func, std::vector<PY_ARG> args)
 {
 	//Initialise python interpreter
 	CPyInstance _pyInst;
@@ -148,9 +149,5 @@ CPyObject CPyManager::callModuleFunc(std::string file, std::string func, ...)
 	if (!pyFile)
 		return CPyObject();
 
-	va_list args;
-	va_start(args, func);
-	CPyObject result = pyFile->Call(func, args);
-	va_end(args);
-	return result;
+	return pyFile->Call(func, args);
 }

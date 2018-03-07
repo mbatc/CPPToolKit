@@ -14,7 +14,7 @@ public:
 	~CPyFile();
 
 	int Run(int argv = 0, char** argc = 0);
-	int Call(std::string func, std::vector<PY_ARG> args);
+	CPyObject Call(std::string func, std::vector<PY_ARG> args);
 
 	std::string getName();
 

@@ -200,5 +200,8 @@
     <ClInclude Include="source\language_interface\python\CPyInstance.h">
       <Filter>Header Files\language interface\python</Filter>
     </ClInclude>
+    <ClInclude Include="source\language_interface\python\PyInclude.h">
+      <Filter>Header Files\language interface\python</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

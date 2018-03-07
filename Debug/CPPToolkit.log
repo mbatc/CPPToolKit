@@ -1,2 +1,13 @@
-﻿  sqlite3.c
+﻿  CPyFile.cpp
+  Generating Code...
+  Compiling...
+  PyTypes.cpp
+  CPyManager.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\cpymanager.cpp(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\cpymanager.cpp(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\cpymanager.cpp(109): warning C4018: '<': signed/unsigned mismatch
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\cpymanager.cpp(123): warning C4018: '<': signed/unsigned mismatch
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\cpymanager.cpp(138): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\pytypes.cpp(15): warning C4715: 'get_pyType': not all control paths return a value
   CPPToolkit.vcxproj -> C:\Users\Mick\Documents\Programming Projects\CPPToolkit\Debug\CPPToolkit.lib

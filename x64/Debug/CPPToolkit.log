@@ -1,0 +1,37 @@
+﻿  CWindow.cpp
+  CTimer.cpp
+  CLog.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\tools\clog.cpp(37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\tools\clog.cpp(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  MathTransform.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\math\geometry\mathtransform.cpp(7): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\math\geometry\mathtransform.cpp(8): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\math\geometry\mathtransform.cpp(9): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\math\geometry\mathtransform.cpp(10): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+  CVector4.cpp
+  CVector3.cpp
+  CVector2.cpp
+  CLine.cpp
+  CSQLInterface.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\sql\csqlinterface.cpp(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  PyTypes.cpp
+  CPyManager.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\cpymanager.cpp(133): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  CPyFile.cpp
+  CTouchInput.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\io\peripherals\ctouchinput.h(55): warning C4800: 'const STOUCHINFO *': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\io\peripherals\ctouchinput.cpp(34): warning C4018: '<': signed/unsigned mismatch
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\io\peripherals\ctouchinput.cpp(52): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\io\peripherals\ctouchinput.cpp(53): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+  CMouseInput.cpp
+  CKeyboardInput.cpp
+  COutput.cpp
+  CIO.cpp
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\io\cio.cpp(41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  CInput.cpp
+  CCMDLnInterface.cpp
+  Generating Code...
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\io\ccmdlninterface.cpp(213): warning C4715: 'CCMDLnInterfaceBase::SCmdMenuTree::GetMenu': not all control paths return a value
+c:\users\mick\documents\programming projects\cpptoolkit\cpptoolkit\source\language_interface\python\pytypes.cpp(15): warning C4715: 'get_pyType': not all control paths return a value
+  sqlite3.c
+  CPPToolkit.vcxproj -> C:\Users\Mick\Documents\Programming Projects\CPPToolkit\x64\Debug\CPPToolkit.lib

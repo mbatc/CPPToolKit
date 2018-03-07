@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Python.h>
+#include "PyInclude.h"
 
 class CPyObject
 {
@@ -40,7 +40,11 @@ public:
 
 	bool is() {	return m_pObj ? true : false; }
 	PyObject* operator = (PyObject* a) {
-		m_pObj = a;
+		return (m_pObj = a);
+	}
+
+	operator PyObject** () {
+		return &m_pObj;
 	}
 
 	operator PyObject*(){
